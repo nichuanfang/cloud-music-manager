@@ -1,0 +1,15 @@
+{
+  "webdav": {
+    "url": "",
+    "username": "",
+    "password": ""
+  },
+  "platform": {
+    "netease": "",
+    "youtube": "",
+    "soundcloud": ""
+  },
+  "search": "",
+  "download": "",
+  "tidy": ""
+}
