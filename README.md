@@ -1,5 +1,5 @@
 # cloud-music-manager
-nas音乐管理器
+nas(群晖)音乐管理器,配合**music-tag-web**,**navidrome**,**音流**使用
 
 ## Features
 
@@ -14,7 +14,13 @@ nas音乐管理器
   - [ ] youtube链接
   - [ ] soundcloud链接
 - [ ] 整理
-    - [ ] 音乐解锁
-    - [ ] 重复性判断
+    - [ ] 音乐库重复性判断(自动)
+    - [ ] 音乐解锁(自动)
     - [ ] 支持手动修改音乐标签
-    - [ ] 上传到nas
+    - [ ] 上传到nas(自动)
+
+## telegram命令
+
+- `/search` 搜索音乐.接受音乐关键字,支持网易云音乐,youtube,soundcloud
+- `/download` 下载音乐并解锁.接受音乐链接,支持网易云音乐,youtube,soundcloud
+- `/tidy` 整理音乐并入库.接受音乐链接,包括下载,解锁(如需),去重,上传等一系列操作
